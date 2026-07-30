@@ -1,3 +1,5 @@
-function welcome() {
-    alert("Welcome to Apurva's Portfolio! 🚀");
-}
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+    alert("Welcome to my Portfolio! 🚀");
+});
