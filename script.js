@@ -1,5 +1,15 @@
-const button = document.querySelector("button");
+document.querySelector("button").addEventListener("click", () => {
+    console.log("Welcome to Apurva's Portfolio!");
+});
 
-button.addEventListener("click", () => {
-    alert("Welcome to my Portfolio! 🚀");
+const cards = document.querySelectorAll(".card");
+
+cards.forEach(card => {
+    card.addEventListener("mouseover", () => {
+        card.style.transform = "scale(1.05)";
+    });
+
+    card.addEventListener("mouseout", () => {
+        card.style.transform = "scale(1)";
+    });
 });
