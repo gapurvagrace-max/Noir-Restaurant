@@ -1,15 +1,18 @@
-document.querySelector("button").addEventListener("click", () => {
-    console.log("Welcome to Apurva's Portfolio!");
+// Welcome message
+console.log("Welcome to Harikesh Restaurant");
+
+// Smooth scroll for navigation links
+document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        alert("This section will be added soon!");
+    });
 });
 
-const cards = document.querySelectorAll(".card");
+// Reserve button
+const reserveBtn = document.querySelector(".hero button");
 
-cards.forEach(card => {
-    card.addEventListener("mouseover", () => {
-        card.style.transform = "scale(1.05)";
-    });
-
-    card.addEventListener("mouseout", () => {
-        card.style.transform = "scale(1)";
-    });
+reserveBtn.addEventListener("click", function() {
+    alert("🍽️ Thank you for choosing Harikesh Restaurant!\nReservation feature coming soon.");
 });
