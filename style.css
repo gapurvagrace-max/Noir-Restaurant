@@ -263,3 +263,46 @@ nav ul li a:hover{
     color:#FFD700;
     margin-top:20px;
 }
+/* Contact */
+
+.contact{
+    padding:100px 10%;
+    background:#161616;
+    text-align:center;
+}
+
+.contact h2{
+    color:#FFD700;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+.contact-box{
+    max-width:700px;
+    margin:auto;
+    background:#1a1a1a;
+    padding:40px;
+    border-radius:15px;
+}
+
+.contact-box p{
+    margin:15px 0;
+    color:#ddd;
+    font-size:18px;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
+}
