@@ -19,7 +19,9 @@ justify-content: center;
 
 text-align: center;  
 
-background-image: url("city.jpg");  
+background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("city.jpg");
 background-size: cover;  
 background-position: center;
 }
