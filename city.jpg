@@ -1,13 +1,1 @@
-.hero {
-    height: 100vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-
-    background-image: url("darkness.jpg");
-    background-size: cover;
-    background-position: center;
-}
