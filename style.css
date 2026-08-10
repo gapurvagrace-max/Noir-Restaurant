@@ -5,50 +5,68 @@
 }
 
 body {
-    background: #0a0a0a;
-    color: white;
+    background: #000;
+    color: #fff;
     font-family: Arial, sans-serif;
 }
 
+/* HERO */
+
 .hero {
-    height: 100vh;  
+    height: 100vh;
 
-display: flex;  
-align-items: center;  
-justify-content: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-text-align: center;  
+    text-align: center;
 
-background-image:
-    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("city.jpg");
-background-size: cover;  
-background-position: center;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
+        url("city.jpg");
+
+    background-size: cover;
+    background-position: center;
 }
+
+/* HERO CONTENT */
 
 .hero-content {
     max-width: 900px;
+    padding: 20px;
 }
+
+/* SMALL TEXT */
 
 .subtitle {
     font-size: 14px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     margin-bottom: 25px;
 }
 
+/* MAIN TITLE */
+
 h1 {
-    font-size: 100px;
+    font-size: 90px;
     line-height: 0.9;
-    letter-spacing: -4px;
+    letter-spacing: -3px;
     margin-bottom: 40px;
 }
 
+/* EXPLORE BUTTON */
+
 .explore {
+    display: inline-block;
+
     color: white;
     text-decoration: none;
+
     border: 1px solid white;
-    padding: 14px 25px;
-    display: inline-block;
+    padding: 14px 28px;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+
     transition: 0.3s;
 }
 
