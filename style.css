@@ -127,3 +127,64 @@ nav a {
 nav a:hover {
     opacity: 0.5;
 }
+.work {
+    min-height: 100vh;
+    padding: 120px 8%;
+    background: #0a0a0a;
+    color: white;
+}
+
+.section-label {
+    font-size: 12px;
+    letter-spacing: 4px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.work h2 {
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.project {
+    cursor: pointer;
+}
+
+.project-image {
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
+.project-info {
+    padding-top: 20px;
+}
+
+.project-info span {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.project-info h3 {
+    font-size: 28px;
+    margin: 8px 0;
+}
+
+.project-info p {
+    font-size: 13px;
+    opacity: 0.6;
+}
