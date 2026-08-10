@@ -11,11 +11,17 @@ body {
 }
 
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    height: 100vh;  
+
+display: flex;  
+align-items: center;  
+justify-content: center;  
+
+text-align: center;  
+
+background-image: url("city.jpg");  
+background-size: cover;  
+background-position: center;
 }
 
 .hero-content {
