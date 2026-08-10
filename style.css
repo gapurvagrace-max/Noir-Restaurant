@@ -1,1 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 0.9;
+    letter-spacing: -4px;
+    margin-bottom: 40px;
+}
+
+.explore {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 14px 25px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.explore:hover {
+    background: white;
+    color: black;
+}
