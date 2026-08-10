@@ -74,3 +74,17 @@ h1 {
     background: white;
     color: black;
 }
+.hero-content {
+    max-width: 900px;
+    padding: 20px;
+
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.hero-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
