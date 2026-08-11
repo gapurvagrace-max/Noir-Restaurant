@@ -289,6 +289,15 @@ nav a:hover {
 .about.show {
     opacity: 1;
     transform: translateY(0);
+}.project {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.project.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
